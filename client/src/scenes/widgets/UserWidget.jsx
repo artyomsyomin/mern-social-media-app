@@ -20,7 +20,7 @@ const UserWidget = ({ userId, picturePath }) => {
   const dark = palette.neutral.dark;
   const medium = palette.neutral.medium;
   const main = palette.neutral.main;
-  
+
   const userFriends = useSelector((state) => state.user.friends);
 
   const getUser = async () => {
